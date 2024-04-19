@@ -164,7 +164,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'FEMADisasterCostForecastingdoc'
+htmlhelp_basename = 'femadisastercostforecastingdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -184,7 +184,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
     ('index',
-     'FEMADisasterCostForecasting.tex',
+     'femadisastercostforecasting.tex',
      u'FEMADisasterCostForecasting Documentation',
      u"Michael Garber", 'manual'),
 ]
@@ -215,7 +215,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'FEMADisasterCostForecasting', u'FEMADisasterCostForecasting Documentation',
+    ('index', 'femadisastercostforecasting', u'FEMADisasterCostForecasting Documentation',
      [u"Michael Garber"], 1)
 ]
 
@@ -229,9 +229,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'FEMADisasterCostForecasting', u'FEMADisasterCostForecasting Documentation',
+    ('index', 'femadisastercostforecasting', u'FEMADisasterCostForecasting Documentation',
      u"Michael Garber", 'FEMADisasterCostForecasting',
-     'SB capstone 2.', 'Miscellaneous'),
+     'FEMA disaster forecasting - capstone 2', 'Miscellaneous'),
 ]
 
 # Documents to append as an appendix to all manuals.

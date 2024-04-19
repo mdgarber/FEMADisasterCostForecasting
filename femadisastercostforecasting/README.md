@@ -1,7 +1,7 @@
 FEMADisasterCostForecasting
 ==============================
 
-SB capstone 2.
+FEMA disaster forecasting - capstone 2
 
 Project Organization
 ------------
