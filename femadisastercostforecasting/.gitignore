@@ -77,6 +77,10 @@ target/
 
 # exclude data from source control by default
 /data/*.csv
+/data/raw/*.csv
+/data/interim/*.csv
+/data/processed/*.csv
+/data/external/*.csv
 
 # Mac OS-specific storage files
 .DS_Store
