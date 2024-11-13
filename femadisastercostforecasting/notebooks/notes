@@ -1,0 +1,16 @@
+Modeling Notes
+
+
+Review model types
+choose 2-3 models
+Feature engineering
+Hyperparameter tuning
+Fit models to training data set
+Transform Train and Test sets (but don't fit to Test or else data leakage)
+Evaluate models...
+	Classification - accuracy, recall, precision, and F1
+	Regression - MSE, MAE, R^2
+	(References)	
+	https://medium.com/analytics-vidhya/complete-guide-to-machine-learning-evaluation-metrics-615c2864d916
+	https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/
+
