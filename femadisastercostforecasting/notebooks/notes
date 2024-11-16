@@ -1,6 +1,6 @@
 Modeling Notes
 
-
+Goal: predict totaldisastercost of FEMA for their fiscal year 2025
 Review model types
 choose 2-3 models
 Feature engineering
