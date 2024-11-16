@@ -1,9 +1,12 @@
 Modeling Notes
 
 Goal: predict totaldisastercost of FEMA for their fiscal year 2025
+Import Libraries
+Import Data
 Review model types
-choose 2-3 models
+Choose 2-3 models
 Feature engineering
+Additional EDA
 Hyperparameter tuning
 Fit models to training data set
 Transform Train and Test sets (but don't fit to Test or else data leakage)
