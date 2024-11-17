@@ -17,3 +17,21 @@ Evaluate models...
 	https://medium.com/analytics-vidhya/complete-guide-to-machine-learning-evaluation-metrics-615c2864d916
 	https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/
 
+
+
+EDA steps
+df.corr() - textual correlation
+sns.pairplot(df)
+sns.heatmap(df.corr())
+sns.scatter(data=df, x='independent', y='dependent variable')
+sns.regplot(data=df, x='independent', y='dependent variable')
+
+
+Feature Selection: Use techniques like stepwise regression, LASSO/Ridge, or feature importance scores to identify the most impactful features.   
+Dimensionality Reduction: Techniques like PCA can reduce the number of features while preserving important information.
+
+   
+
+
+#model eval stats
+modelVariable.summary()
