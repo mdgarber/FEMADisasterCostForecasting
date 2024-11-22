@@ -32,6 +32,7 @@ Dimensionality Reduction: Techniques like PCA can reduce the number of features 
 
    
 
+https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/assumptions-of-linear-regression/
 
 #model eval stats
 modelVariable.summary()
