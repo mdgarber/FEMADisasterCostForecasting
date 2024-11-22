@@ -17,6 +17,16 @@ Evaluate models...
 	https://medium.com/analytics-vidhya/complete-guide-to-machine-learning-evaluation-metrics-615c2864d916
 	https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/
 
+DQ checks
+---------
+is femaDatacleanV4.totalDisasterCostcorrect?
+is femaAnnualStats.totalDisasterCost correct?
+any data leakage (from X <> y) during or after train/test split?
+any columns accidentally copied over to other columns?
+for linear regression, any multi-colinearity? If so, remove the columns from data set that are least important of any collinear pair
+    run a correlation matrix on the dollar amount funded fields. columns > .8 should be removed
+spot check fishy values (negatives, possible duplicates) 
+addiotnal ref: https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/assumptions-of-linear-regression/
 
 
 EDA steps
@@ -32,7 +42,6 @@ Dimensionality Reduction: Techniques like PCA can reduce the number of features 
 
    
 
-https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/assumptions-of-linear-regression/
 
 #model eval stats
 modelVariable.summary()
