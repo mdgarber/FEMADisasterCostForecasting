@@ -35,3 +35,9 @@ Dimensionality Reduction: Techniques like PCA can reduce the number of features 
 
 #model eval stats
 modelVariable.summary()
+
+features to use
+---------------
+totalObligatedAmountPa
+totalNumberIaApproved
+ihProgramDeclared
