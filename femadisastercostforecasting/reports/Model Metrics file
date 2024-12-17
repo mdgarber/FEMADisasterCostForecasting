@@ -1,0 +1,21 @@
+Model Metrics
+
+Model Type
+-Linear Regression
+
+Data Scaling
+-Robust
+
+Target value and Features
+- yPred  = totalDisasterCost
+- x1     = totalObligatedAmountPa
+- x2     = totalNumberIaApproved
+- x3     = iaCutoverIhProgramDeclared
+
+Model Coefficients
+- x1 =  1.90294518e+09
+- x2 =  2.13442026e+08x2
+- x3 = -1.00795613e+08x3
+
+Model Definition
+yPred = 1.90294518e+09x1 + 2.13442026e+08x2 + -1.00795613e+08x3
